@@ -14,6 +14,7 @@ public class HomeController {
 	
 	@RequestMapping("/affichage")// le nom de la vue sous template
 	public String affichage() {
+		System.out.println("Méthode affichage");
 		return "home/affichage";
 	
 }
